@@ -1,0 +1,11 @@
+framework module LankaSign {
+  umbrella header "LankaSign.h"
+  export *
+
+  module * { export * }
+}
+
+module LankaSign.Swift {
+  header "LankaSign-Swift.h"
+  requires objc
+}

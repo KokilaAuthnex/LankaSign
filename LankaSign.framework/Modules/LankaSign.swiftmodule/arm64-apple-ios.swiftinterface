@@ -1,0 +1,213 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
+// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -module-name LankaSign
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import Alamofire
+import CommonCrypto
+import DeveloperToolsSupport
+import Foundation
+import JOSESwift
+@_exported import LankaSign
+import LocalAuthentication
+import Security
+import SwCrypt
+import Swift
+import SwiftKeychainWrapper
+import SwiftUI
+import SwiftyBeaver
+import SwiftyJSON
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public enum UnlockMode : Swift.String {
+  case TouchID
+  case faceID
+  case Pin
+  case None
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum AuthenticationMode : Swift.Int, Swift.Codable {
+  case keyStoreAuthenticated
+  case keyStoreOnly
+  case hybrid
+  case none
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public enum AuthenticationInfo : Swift.Int, Swift.Codable {
+  case biometricOnly
+  case pinPatternOnly
+  case biometricPinPatern
+  case deviceAuthenticator
+  case hybrid
+  case none
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public enum AuthenticationType : Swift.Int, Swift.Codable {
+  case StrongBiometric
+  case DeviceCredencial
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public enum RulesMode : Swift.Int, Swift.Codable {
+  case KSPB
+  case KSUB
+  case KSPP
+  case KSA
+  case KSC
+  case KSPT
+  case KSPF
+  case NONE
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public struct UserData : Swift.Codable {
+  public init(userName: Swift.String?, CN: Swift.String?, E: Swift.String?, MB: Swift.String?, UID: Swift.String?, O: Swift.String?, OU: Swift.String?, STREET: Swift.String?, L: Swift.String?, S: Swift.String?, C: Swift.String?)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+@objc @_inheritsConvenienceInitializers public class CertificateSigningRequest : ObjectiveC.NSObject {
+  public init(commonName: Swift.String? = nil, organizationName: Swift.String? = nil, organizationUnitName: Swift.String? = nil, countryName: Swift.String? = nil, stateOrProvinceName: Swift.String? = nil, localityName: Swift.String? = nil, emailAddress: Swift.String? = nil, uid: Swift.String? = nil, streetAddress: Swift.String? = nil, description: Swift.String? = nil, nic: Swift.String? = nil, deviceID: Swift.String? = nil, clientID: Swift.String? = nil, applicationId: Swift.String? = nil, keyAlgorithm: LankaSign.KeyAlgorithm)
+  @objc convenience override dynamic public init()
+  convenience public init(keyAlgorithm: LankaSign.KeyAlgorithm)
+  public func build(_ publicKeyBits: Foundation.Data, privateKey: Security.SecKey, publicKey: Security.SecKey? = nil) -> Foundation.Data?
+  public func buildAndEncodeDataAsString(_ publicKeyBits: Foundation.Data, privateKey: Security.SecKey, publicKey: Security.SecKey? = nil) -> Swift.String?
+  public func buildCSRAndReturnString(_ publicKeyBits: Foundation.Data, privateKey: Security.SecKey, publicKey: Security.SecKey? = nil) -> Swift.String?
+  @objc deinit
+}
+public typealias actionHandler = (LankaSign.LankaSignResult<Swift.String>) -> ()
+public typealias resultHandler = (LankaSign.LankaSignResult<Swift.String>) -> ()
+public typealias cancelResultHandler = (LankaSign.LankaSignResult<Swift.String>) -> ()
+public typealias sessionTokenHandler = (_ statusCode: Swift.Int, _ message: Swift.String, _ sessionToken: Swift.String, _ refreshToken: Swift.String) -> ()
+public typealias completionHandler = (_ message: Swift.String?, _ error: (any Swift.Error)?, _ statusCode: Swift.Int?) -> ()
+public typealias signedCompletionHandler = (_ signedContent: Swift.String?) -> ()
+public var authenticator: LankaSign.UnlockMode
+public var selectedAuthenticationMode: LankaSign.AuthenticationMode
+public var selectedAuthenticationType: LankaSign.AuthenticationInfo
+public var rulesMode: LankaSign.RulesMode
+public enum LankaSignException : Swift.Error {
+  case SecurityException(Swift.String)
+  case ContentException(Swift.String)
+  case DeviceException(Swift.String)
+  case NoConnectivityException(Swift.String)
+  public var description: Swift.String {
+    get
+  }
+  public var errorCode: Swift.String {
+    get
+  }
+}
+public enum LankasignStausCodes {
+  public static let SUCCESS: Swift.Int
+  public static let PENDING: Swift.Int
+  public static let REJECTED: Swift.Int
+  public static let INTERNAL_ERROR: Swift.Int
+  public static let CANCELED: Swift.Int
+  public static let USER_CANCELED: Swift.Int
+  public static let CHECKING_FAILED: Swift.Int
+  public static let REVOKED: Swift.Int
+  public static let EXPIRED: Swift.Int
+}
+@_hasMissingDesignatedInitializers public class Localizator {
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers open class LankaSignSDK {
+  public static let sharedInstance: LankaSign.LankaSignSDK
+  public func initSDK() throws
+  public func initSDK(channelID: Swift.String?) throws
+  public func initSDK(channelID: Swift.String?, clientData: LankaSign.LankaSignClientData?) throws
+  public func initSDKE(channelID: Swift.String) throws
+  public func initSDKE(channelID: Swift.String, clientData: LankaSign.LankaSignClientData?) throws
+  public func reInit() throws
+  public func reInit(clientData: LankaSign.LankaSignClientData?) throws
+  public func reInitSDK() throws
+  public func resetSDK() throws
+  public func isUserRegistered() throws -> Swift.Bool
+  public func enroll(user: LankaSign.UserData?, completion: @escaping LankaSign.resultHandler) throws
+  public func sign(contentToBeSigned: Swift.String, completion: @escaping LankaSign.resultHandler, signCompletionHandler: @escaping LankaSign.signedCompletionHandler) throws
+  public func revokeCertificate(reason: Swift.String, completion: @escaping LankaSign.resultHandler) throws
+  public func getPublicCertificate() throws -> Swift.String?
+  public func didReceiveRemoteNotification(_ userInfo: [Swift.AnyHashable : Any]) throws
+  public func willPresent(_ notification: UserNotifications.UNNotification, completionHandler: @escaping (UserNotifications.UNNotificationPresentationOptions) -> Swift.Void) throws
+  @objc deinit
+}
+public enum KeyAlgorithm {
+  case rsa(signatureType: LankaSign.KeyAlgorithm.Signature), ec(signatureType: LankaSign.KeyAlgorithm.Signature)
+  @available(iOS 10, macCatalyst 13.0, macOS 10.12, tvOS 10.0, watchOS 3.0, *)
+  public var secKeyAttrType: CoreFoundation.CFString {
+    get
+  }
+  public var availableKeySizes: [Swift.Int] {
+    get
+  }
+  public enum Signature {
+    case sha1, sha256, sha512
+    public static func == (a: LankaSign.KeyAlgorithm.Signature, b: LankaSign.KeyAlgorithm.Signature) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  public var type: Swift.String {
+    get
+  }
+  @available(iOS 10, macCatalyst 13.0, macOS 10.12, tvOS 10.0, watchOS 3.0, *)
+  public var signatureAlgorithm: Security.SecKeyAlgorithm {
+    get
+  }
+}
+public struct LankaSignClientData : Swift.Codable {
+  public init(from decoder: any Swift.Decoder) throws
+  public init(packageName: Swift.String?, clientId: Swift.String?, serial: Swift.String?, applicationId: Swift.String?, allowedProfiles: [LankaSign.SecurityProfile]?)
+  public func encode(to encoder: any Swift.Encoder) throws
+}
+public struct SecurityProfile : Swift.Codable {
+  public init(invalidateBiometric: Swift.Bool, authenticationType: LankaSign.AuthenticationType?)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+@_hasMissingDesignatedInitializers public class LankaSignResult<T> {
+  public var state: Swift.Bool
+  public func getData() -> T?
+  public func getStatusCode() -> Swift.Int?
+  public var error: Swift.String?
+  public var errorCode: Swift.String?
+  public var errorCodeUnique: Swift.String?
+  public var errorDescription: Swift.String?
+  @objc deinit
+}
+extension LankaSign.UnlockMode : Swift.Equatable {}
+extension LankaSign.UnlockMode : Swift.Hashable {}
+extension LankaSign.UnlockMode : Swift.RawRepresentable {}
+extension LankaSign.AuthenticationMode : Swift.Equatable {}
+extension LankaSign.AuthenticationMode : Swift.Hashable {}
+extension LankaSign.AuthenticationMode : Swift.RawRepresentable {}
+extension LankaSign.AuthenticationInfo : Swift.Equatable {}
+extension LankaSign.AuthenticationInfo : Swift.Hashable {}
+extension LankaSign.AuthenticationInfo : Swift.RawRepresentable {}
+extension LankaSign.AuthenticationType : Swift.Equatable {}
+extension LankaSign.AuthenticationType : Swift.Hashable {}
+extension LankaSign.AuthenticationType : Swift.RawRepresentable {}
+extension LankaSign.RulesMode : Swift.Equatable {}
+extension LankaSign.RulesMode : Swift.Hashable {}
+extension LankaSign.RulesMode : Swift.RawRepresentable {}
+extension LankaSign.KeyAlgorithm.Signature : Swift.Equatable {}
+extension LankaSign.KeyAlgorithm.Signature : Swift.Hashable {}
