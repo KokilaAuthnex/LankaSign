@@ -7514,371 +7514,371 @@
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/NetworkManager\/SDKEndPointConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1085,
+      "offset": 1083,
       "length": 9,
       "value": "\"x-nonce\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/NetworkManager\/SDKEndPointConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1137,
+      "offset": 1135,
       "length": 9,
       "value": "\"X-Nonce\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/NetworkManager\/SDKEndPointConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1188,
+      "offset": 1186,
       "length": 9,
       "value": "\"X-Nonce\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/NetworkManager\/SDKEndPointConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1242,
+      "offset": 1240,
       "length": 9,
       "value": "\"x-nonce\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/NetworkManager\/SDKEndPointConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1297,
+      "offset": 1295,
       "length": 9,
       "value": "\"x-nonce\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/NetworkManager\/SDKEndPointConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1446,
+      "offset": 1444,
       "length": 10,
       "value": "\"lankapay\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/NetworkManager\/SDKEndPointConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1499,
+      "offset": 1497,
       "length": 28,
       "value": "\"aunex_certificate_cert_out\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/NetworkManager\/SDKEndPointConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1569,
+      "offset": 1567,
       "length": 28,
       "value": "\"aunex_certificate_cert_out\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/NetworkManager\/SDKEndPointConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1642,
+      "offset": 1640,
       "length": 10,
       "value": "\"lankapay\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/NetworkManager\/SDKEndPointConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1698,
+      "offset": 1696,
       "length": 10,
       "value": "\"lankapay\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/NetworkManager\/SDKEndPointConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2207,
+      "offset": 2205,
       "length": 5,
       "value": "\"iOS\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/NetworkManager\/SDKEndPointConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2242,
+      "offset": 2240,
       "length": 7,
       "value": "\"10001\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/NetworkManager\/SDKEndPointConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2281,
+      "offset": 2279,
       "length": 50,
       "value": "\"MzY5OUU5Q0YtNUI1Mi00OUZGLTg3MjEtMDc4NUM4QjlFNzUz\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/NetworkManager\/SDKEndPointConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2369,
+      "offset": 2367,
       "length": 4,
       "value": "\"v1\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/NetworkManager\/SDKEndPointConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2427,
+      "offset": 2425,
       "length": 15,
       "value": "\"\/Registration\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/NetworkManager\/SDKEndPointConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2475,
+      "offset": 2473,
       "length": 10,
       "value": "\"\/Granter\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/NetworkManager\/SDKEndPointConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2518,
+      "offset": 2516,
       "length": 17,
       "value": "\"\/Authentication\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/NetworkManager\/SDKEndPointConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2561,
+      "offset": 2559,
       "length": 10,
       "value": "\"\/Insight\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/NetworkManager\/SDKEndPointConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2627,
+      "offset": 2625,
       "length": 9,
       "value": "\"\/Client\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/NetworkManager\/SDKEndPointConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2669,
+      "offset": 2667,
       "length": 7,
       "value": "\"\/User\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/NetworkManager\/SDKEndPointConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2721,
+      "offset": 2719,
       "length": 7,
       "value": "\"\/Init\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/NetworkManager\/SDKEndPointConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2761,
+      "offset": 2759,
       "length": 8,
       "value": "\"\/Token\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/NetworkManager\/SDKEndPointConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2812,
+      "offset": 2810,
       "length": 18,
       "value": "\"\/EnrollmentToken\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/NetworkManager\/SDKEndPointConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2863,
+      "offset": 2861,
       "length": 14,
       "value": "\"\/SignRequest\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/NetworkManager\/SDKEndPointConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2917,
+      "offset": 2915,
       "length": 23,
       "value": "\"\/EnrollmentValidation\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/NetworkManager\/SDKEndPointConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2983,
+      "offset": 2981,
       "length": 26,
       "value": "\"\/EnrollmentAuthorization\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/NetworkManager\/SDKEndPointConstants.swift",
       "kind": "StringLiteral",
-      "offset": 3037,
+      "offset": 3035,
       "length": 12,
       "value": "\"\/Authorize\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/NetworkManager\/SDKEndPointConstants.swift",
       "kind": "StringLiteral",
-      "offset": 3087,
+      "offset": 3085,
       "length": 20,
       "value": "\"\/ValidateSecurePin\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/NetworkManager\/SDKEndPointConstants.swift",
       "kind": "StringLiteral",
-      "offset": 3140,
+      "offset": 3138,
       "length": 17,
       "value": "\"\/Acknowledgment\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/NetworkManager\/SDKEndPointConstants.swift",
       "kind": "StringLiteral",
-      "offset": 3194,
+      "offset": 3192,
       "length": 20,
       "value": "\"\/CertificateStatus\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/NetworkManager\/SDKEndPointConstants.swift",
       "kind": "StringLiteral",
-      "offset": 3240,
+      "offset": 3238,
       "length": 10,
       "value": "\"\/Renewal\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/NetworkManager\/SDKEndPointConstants.swift",
       "kind": "StringLiteral",
-      "offset": 3288,
+      "offset": 3286,
       "length": 21,
       "value": "\"\/DeferredEnrollment\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/NetworkManager\/SDKEndPointConstants.swift",
       "kind": "StringLiteral",
-      "offset": 3334,
+      "offset": 3332,
       "length": 9,
       "value": "\"\/Revoke\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/NetworkManager\/SDKEndPointConstants.swift",
       "kind": "StringLiteral",
-      "offset": 3400,
+      "offset": 3398,
       "length": 5,
       "value": "\"GET\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/NetworkManager\/SDKEndPointConstants.swift",
       "kind": "StringLiteral",
-      "offset": 3428,
+      "offset": 3426,
       "length": 6,
       "value": "\"POST\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/NetworkManager\/SDKEndPointConstants.swift",
       "kind": "StringLiteral",
-      "offset": 3459,
+      "offset": 3457,
       "length": 8,
       "value": "\"DELETE\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/NetworkManager\/SDKEndPointConstants.swift",
       "kind": "StringLiteral",
-      "offset": 3543,
+      "offset": 3541,
       "length": 7,
       "value": "\"basic\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/NetworkManager\/SDKEndPointConstants.swift",
       "kind": "StringLiteral",
-      "offset": 3594,
+      "offset": 3592,
       "length": 8,
       "value": "\"bearer\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/NetworkManager\/SDKEndPointConstants.swift",
       "kind": "StringLiteral",
-      "offset": 3663,
+      "offset": 3661,
       "length": 15,
       "value": "\"Authorization\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/NetworkManager\/SDKEndPointConstants.swift",
       "kind": "StringLiteral",
-      "offset": 3716,
+      "offset": 3714,
       "length": 14,
       "value": "\"Access-Token\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/NetworkManager\/SDKEndPointConstants.swift",
       "kind": "StringLiteral",
-      "offset": 3804,
+      "offset": 3802,
       "length": 12,
       "value": "\"X-SSL-Cert\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/NetworkManager\/SDKEndPointConstants.swift",
       "kind": "StringLiteral",
-      "offset": 3852,
+      "offset": 3850,
       "length": 12,
       "value": "\"User-Agent\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/NetworkManager\/SDKEndPointConstants.swift",
       "kind": "StringLiteral",
-      "offset": 3898,
+      "offset": 3896,
       "length": 12,
       "value": "\"X-Cycle-ID\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/NetworkManager\/SDKEndPointConstants.swift",
       "kind": "StringLiteral",
-      "offset": 3939,
+      "offset": 3937,
       "length": 149,
       "value": "\"LankaSignSDK-\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/NetworkManager\/SDKEndPointConstants.swift",
       "kind": "StringLiteral",
-      "offset": 3988,
+      "offset": 3986,
       "length": 1,
       "value": "\"-\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/NetworkManager\/SDKEndPointConstants.swift",
       "kind": "StringLiteral",
-      "offset": 4027,
+      "offset": 4025,
       "length": 1,
       "value": "\"-iOS-\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/NetworkManager\/SDKEndPointConstants.swift",
       "kind": "StringLiteral",
-      "offset": 4065,
+      "offset": 4063,
       "length": 1,
       "value": "\"-\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/NetworkManager\/SDKEndPointConstants.swift",
       "kind": "StringLiteral",
-      "offset": 4087,
+      "offset": 4085,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/NetworkManager\/SDKEndPointConstants.swift",
       "kind": "StringLiteral",
-      "offset": 4144,
+      "offset": 4142,
       "length": 14,
       "value": "\"Content-Type\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/NetworkManager\/SDKEndPointConstants.swift",
       "kind": "StringLiteral",
-      "offset": 4195,
+      "offset": 4193,
       "length": 18,
       "value": "\"application\/json\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/NetworkManager\/SDKEndPointConstants.swift",
       "kind": "StringLiteral",
-      "offset": 4243,
+      "offset": 4241,
       "length": 8,
       "value": "\"Accept\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/NetworkManager\/SDKEndPointConstants.swift",
       "kind": "StringLiteral",
-      "offset": 4287,
+      "offset": 4285,
       "length": 18,
       "value": "\"application\/json\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/NetworkManager\/SDKEndPointConstants.swift",
       "kind": "StringLiteral",
-      "offset": 4367,
+      "offset": 4365,
       "length": 14,
       "value": "\"+94114500800\""
     },

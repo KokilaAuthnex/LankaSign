@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
   # ―――----------------------------------――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
   s.name         = "LankaSign"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "LankaSignSDK for Digital signing."
   s.description  = "Digital signing product created by Authnex"
   s.homepage     = "https://www.authnex.com"
