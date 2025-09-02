@@ -34,7 +34,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		z0z4TonbQl/XiVITCy4Ar3tfrh0=
+		8jOzLQ51BVukXD+pPA2IToMOfxk=
 		</data>
 		<key>LICENSE</key>
 		<data>
@@ -42,7 +42,7 @@
 		</data>
 		<key>Modules/LankaSign.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		fk7BWZ0Gq+FTs5jxifSecgmq3Ho=
+		BVhAQWfZkyAuFd8cWnQoAWuhLJI=
 		</data>
 		<key>Modules/LankaSign.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
@@ -58,7 +58,7 @@
 		</data>
 		<key>Modules/LankaSign.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		Z1hYP6KattkQoDnOzaJqzOgi7MQ=
+		RtBkjk68Gje3+Wx+8I9UL14OI9I=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -68,25 +68,17 @@
 		<data>
 		Hx/w9bSMvxUIQ2Pa32guFYtd6Bk=
 		</data>
-		<key>api_lankasign_lankaclear_com_cert_out.der</key>
-		<data>
-		/CeIsNVMqzNbmq78Cm7c3Fjhksg=
-		</data>
-		<key>api_lankasigntest_lankaclear_com_cert_out.der</key>
-		<data>
-		HfqCffuMRRYJe/UvhI/oA0lcqVE=
-		</data>
-		<key>aunex_certificate_cert_out.der</key>
-		<data>
-		KW9PMtnMbZSTMV5dHrNchOd0EQQ=
-		</data>
 		<key>faceid.png</key>
 		<data>
 		iaM6gOUJcBytCECXUIkCOJJN6Lk=
 		</data>
+		<key>lankapay-old.der</key>
+		<data>
+		XZb+zbp5DrqIjIiTht0R2CCa6i4=
+		</data>
 		<key>lankapay.der</key>
 		<data>
-		FV79aBKFmHfhNAH4SHinh4dVZGM=
+		g5MIx8AQW+TfgrAGPMDvGrRDCVk=
 		</data>
 		<key>touchid.jpg</key>
 		<data>
@@ -155,7 +147,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			O59GuzhQid5eSSh2+oxj/z8tB/Il6IW67JdZ/Zz3gMg=
+			IjE2ThN8eoRohAZasONDjThJZAC9A9NXze2bw+gw0uE=
 			</data>
 		</dict>
 		<key>Modules/LankaSign.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
@@ -183,7 +175,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Asj8xUuq0PpwENT5zSCcu4ypFoGUWvt/I8xX/zinfGE=
+			2DeVmYQyPd/pWkU0tTqyV5BRZSa76Zf09LFzV9goE8w=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -200,27 +192,6 @@
 			Qo4tH1z7rCMWj+E8wSva8CLfu3kkZK08se1V0SJuBH0=
 			</data>
 		</dict>
-		<key>api_lankasign_lankaclear_com_cert_out.der</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			xzNees6nMQJrWBLLUY1LBwLobQXMoMVIuoDoqRLDrBQ=
-			</data>
-		</dict>
-		<key>api_lankasigntest_lankaclear_com_cert_out.der</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			ZGXM2bxGGV5CXXphLmbRQnDuqkW/wSebCg0x5TjBBUg=
-			</data>
-		</dict>
-		<key>aunex_certificate_cert_out.der</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			WvxG7VCzanv1wdJh2CEZc6kCynpfyguGL7OVQd5kkT4=
-			</data>
-		</dict>
 		<key>faceid.png</key>
 		<dict>
 			<key>hash2</key>
@@ -228,11 +199,18 @@
 			PRBDGBk9czSAYSAkGPJun67G9YjnEFLMl4VomD2Vd7Q=
 			</data>
 		</dict>
+		<key>lankapay-old.der</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			PlXfVWDoTadbyPM+306iWhg1G0CCUgKG7W9wc0E0Yz8=
+			</data>
+		</dict>
 		<key>lankapay.der</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			26T5kVn/AgDgjQXUmnkXdtVF6CurfPDb/Jo1KTeuPPQ=
+			b5gtjdYFCRqb9gsRgtpJtPPRKjetnjVJRGqGoKcWWus=
 			</data>
 		</dict>
 		<key>touchid.jpg</key>
