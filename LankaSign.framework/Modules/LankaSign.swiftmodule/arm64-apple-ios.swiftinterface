@@ -149,9 +149,9 @@ public enum LankasignStausCodes {
   public func sign(contentToBeSigned: Swift.String, completion: @escaping LankaSign.resultHandler, signCompletionHandler: @escaping LankaSign.signedCompletionHandler) throws
   public func revokeCertificate(reason: Swift.String, completion: @escaping LankaSign.resultHandler) throws
   public func getPublicCertificate() throws -> Swift.String?
-  public func getCertificateData(_ completion: @escaping (_ response: LankaSign.CertStatusResponse?) -> ())
   public func didReceiveRemoteNotification(_ userInfo: [Swift.AnyHashable : Any]) throws
   public func willPresent(_ notification: UserNotifications.UNNotification, completionHandler: @escaping (UserNotifications.UNNotificationPresentationOptions) -> Swift.Void) throws
+  public func certificateStatus(completion: @escaping (LankaSign.CertStatusResponse?) -> ()) throws
   @objc deinit
 }
 public enum KeyAlgorithm {
@@ -197,6 +197,7 @@ public struct SecurityProfile : Swift.Codable {
   public var errorCode: Swift.String?
   public var errorCodeUnique: Swift.String?
   public var errorDescription: Swift.String?
+  public init(_ state: Swift.Bool, _ data: T)
   @objc deinit
 }
 extension LankaSign.UnlockMode : Swift.Equatable {}
