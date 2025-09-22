@@ -9955,28 +9955,28 @@
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Models\/Request\/CheckCertificateExpiryRequest.swift",
       "kind": "StringLiteral",
-      "offset": 394,
+      "offset": 618,
       "length": 10,
       "value": "\"Username\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Models\/Request\/CheckCertificateExpiryRequest.swift",
       "kind": "StringLiteral",
-      "offset": 429,
+      "offset": 653,
       "length": 10,
       "value": "\"ClientID\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Models\/Request\/CheckCertificateExpiryRequest.swift",
       "kind": "StringLiteral",
-      "offset": 462,
+      "offset": 686,
       "length": 8,
       "value": "\"Serial\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Models\/Request\/CheckCertificateExpiryRequest.swift",
       "kind": "StringLiteral",
-      "offset": 495,
+      "offset": 719,
       "length": 10,
       "value": "\"DeviceID\""
     },
