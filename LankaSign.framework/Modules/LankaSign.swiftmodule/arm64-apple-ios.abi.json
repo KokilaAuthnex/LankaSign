@@ -4674,6 +4674,53 @@
           },
           {
             "kind": "Function",
+            "name": "checkCertificateExpiry",
+            "printedName": "checkCertificateExpiry(completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(LankaSign.LankaSignResult<Swift.String>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LankaSignResult",
+                    "printedName": "LankaSign.LankaSignResult<Swift.String>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:9LankaSign0aB6ResultC"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9LankaSign0aB3SDKC22checkCertificateExpiry10completionyyAA0aB6ResultCySSGc_tKF",
+            "mangledName": "$s9LankaSign0aB3SDKC22checkCertificateExpiry10completionyyAA0aB6ResultCySSGc_tKF",
+            "moduleName": "LankaSign",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "getPublicCertificate",
             "printedName": "getPublicCertificate()",
             "children": [
