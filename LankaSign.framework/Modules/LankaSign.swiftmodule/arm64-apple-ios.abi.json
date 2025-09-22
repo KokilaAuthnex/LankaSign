@@ -7031,469 +7031,476 @@
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Utilities\/Helper\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 1020,
+      "offset": 1002,
+      "length": 3,
+      "value": "\"4\""
+    },
+    {
+      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Utilities\/Helper\/Enums.swift",
+      "kind": "StringLiteral",
+      "offset": 1061,
       "length": 5,
       "value": "\"fpt\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Utilities\/Helper\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 1044,
+      "offset": 1085,
       "length": 6,
       "value": "\"face\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Utilities\/Helper\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 1066,
+      "offset": 1107,
       "length": 5,
       "value": "\"pin\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Utilities\/Helper\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 1088,
+      "offset": 1129,
       "length": 6,
       "value": "\"none\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Utilities\/Helper\/Enums.swift",
       "kind": "IntegerLiteral",
-      "offset": 1178,
+      "offset": 1219,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Utilities\/Helper\/Enums.swift",
       "kind": "IntegerLiteral",
-      "offset": 1204,
+      "offset": 1245,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Utilities\/Helper\/Enums.swift",
       "kind": "IntegerLiteral",
-      "offset": 1224,
+      "offset": 1265,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Utilities\/Helper\/Enums.swift",
       "kind": "IntegerLiteral",
-      "offset": 1242,
+      "offset": 1283,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Utilities\/Helper\/Enums.swift",
       "kind": "IntegerLiteral",
-      "offset": 1320,
+      "offset": 1361,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Utilities\/Helper\/Enums.swift",
       "kind": "IntegerLiteral",
-      "offset": 1348,
+      "offset": 1389,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Utilities\/Helper\/Enums.swift",
       "kind": "IntegerLiteral",
-      "offset": 1380,
+      "offset": 1421,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Utilities\/Helper\/Enums.swift",
       "kind": "IntegerLiteral",
-      "offset": 1413,
+      "offset": 1454,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Utilities\/Helper\/Enums.swift",
       "kind": "IntegerLiteral",
-      "offset": 1433,
+      "offset": 1474,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Utilities\/Helper\/Enums.swift",
       "kind": "IntegerLiteral",
-      "offset": 1451,
+      "offset": 1492,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Utilities\/Helper\/Enums.swift",
       "kind": "IntegerLiteral",
-      "offset": 1531,
+      "offset": 1572,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Utilities\/Helper\/Enums.swift",
       "kind": "IntegerLiteral",
-      "offset": 1561,
+      "offset": 1602,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Utilities\/Helper\/Enums.swift",
       "kind": "IntegerLiteral",
-      "offset": 1620,
+      "offset": 1661,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Utilities\/Helper\/Enums.swift",
       "kind": "IntegerLiteral",
-      "offset": 1710,
+      "offset": 1751,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Utilities\/Helper\/Enums.swift",
       "kind": "IntegerLiteral",
-      "offset": 1759,
+      "offset": 1800,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Utilities\/Helper\/Enums.swift",
       "kind": "IntegerLiteral",
-      "offset": 1821,
+      "offset": 1862,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Utilities\/Helper\/Enums.swift",
       "kind": "IntegerLiteral",
-      "offset": 1898,
+      "offset": 1939,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Utilities\/Helper\/Enums.swift",
       "kind": "IntegerLiteral",
-      "offset": 2026,
+      "offset": 2067,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Utilities\/Helper\/Enums.swift",
       "kind": "IntegerLiteral",
-      "offset": 2066,
+      "offset": 2107,
       "length": 1,
       "value": "6"
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Utilities\/Helper\/Enums.swift",
       "kind": "IntegerLiteral",
-      "offset": 2100,
+      "offset": 2141,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Utilities\/Helper\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 2156,
+      "offset": 2197,
       "length": 3,
       "value": "\"0\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Utilities\/Helper\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 2187,
+      "offset": 2228,
       "length": 3,
       "value": "\"1\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Utilities\/Helper\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 2223,
+      "offset": 2264,
       "length": 3,
       "value": "\"2\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Utilities\/Helper\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 2262,
+      "offset": 2303,
       "length": 3,
       "value": "\"3\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Utilities\/Helper\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 2290,
+      "offset": 2331,
       "length": 3,
       "value": "\"4\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Utilities\/Helper\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 2321,
+      "offset": 2362,
       "length": 3,
       "value": "\"5\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Utilities\/Helper\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 2353,
+      "offset": 2394,
       "length": 3,
       "value": "\"6\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Utilities\/Helper\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 2376,
+      "offset": 2417,
       "length": 3,
       "value": "\"7\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Utilities\/Helper\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 2410,
+      "offset": 2451,
       "length": 3,
       "value": "\"8\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Utilities\/Helper\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 2433,
+      "offset": 2474,
       "length": 3,
       "value": "\"9\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Utilities\/Helper\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 2499,
+      "offset": 2540,
       "length": 7,
       "value": "\"0x3E8\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Utilities\/Helper\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 2539,
+      "offset": 2580,
       "length": 7,
       "value": "\"0x7D0\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Utilities\/Helper\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 2583,
+      "offset": 2624,
       "length": 7,
       "value": "\"0xBB8\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Utilities\/Helper\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 2628,
+      "offset": 2669,
       "length": 7,
       "value": "\"0xFA0\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Utilities\/Helper\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 2666,
+      "offset": 2707,
       "length": 8,
       "value": "\"0x1B58\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Utilities\/Helper\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 2694,
+      "offset": 2735,
       "length": 8,
       "value": "\"0x1F40\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Utilities\/Helper\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 2727,
+      "offset": 2768,
       "length": 8,
       "value": "\"0x2AF8\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Utilities\/Helper\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 2756,
+      "offset": 2797,
       "length": 8,
       "value": "\"0x2EE0\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Utilities\/Helper\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 2790,
+      "offset": 2831,
       "length": 8,
       "value": "\"0x32C8\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Utilities\/Helper\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 2857,
+      "offset": 2898,
       "length": 3,
       "value": "\"1\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Utilities\/Helper\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 2882,
+      "offset": 2923,
       "length": 3,
       "value": "\"2\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Utilities\/Helper\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 2917,
+      "offset": 2958,
       "length": 3,
       "value": "\"3\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Utilities\/Helper\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 2944,
+      "offset": 2985,
       "length": 3,
       "value": "\"4\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Utilities\/Helper\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 2965,
+      "offset": 3006,
       "length": 3,
       "value": "\"5\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Utilities\/Helper\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 3002,
+      "offset": 3043,
       "length": 3,
       "value": "\"6\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Utilities\/Helper\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 3035,
+      "offset": 3076,
       "length": 3,
       "value": "\"7\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Utilities\/Helper\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 3071,
+      "offset": 3112,
       "length": 3,
       "value": "\"8\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Utilities\/Helper\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 3110,
+      "offset": 3151,
       "length": 3,
       "value": "\"9\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Utilities\/Helper\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 3134,
+      "offset": 3175,
       "length": 3,
       "value": "\"A\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Utilities\/Helper\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 3153,
+      "offset": 3194,
       "length": 3,
       "value": "\"B\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Utilities\/Helper\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 3179,
+      "offset": 3220,
       "length": 3,
       "value": "\"C\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Utilities\/Helper\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 3219,
+      "offset": 3260,
       "length": 3,
       "value": "\"D\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Utilities\/Helper\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 3249,
+      "offset": 3290,
       "length": 3,
       "value": "\"E\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Utilities\/Helper\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 3273,
+      "offset": 3314,
       "length": 3,
       "value": "\"F\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Utilities\/Helper\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 3309,
+      "offset": 3350,
       "length": 3,
       "value": "\"G\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Utilities\/Helper\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 3342,
+      "offset": 3383,
       "length": 3,
       "value": "\"H\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Utilities\/Helper\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 3412,
+      "offset": 3453,
       "length": 3,
       "value": "\"1\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Utilities\/Helper\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 3433,
+      "offset": 3474,
       "length": 3,
       "value": "\"2\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Utilities\/Helper\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 3463,
+      "offset": 3504,
       "length": 3,
       "value": "\"3\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Utilities\/Helper\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 3494,
+      "offset": 3535,
       "length": 3,
       "value": "\"4\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Utilities\/Helper\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 3525,
+      "offset": 3566,
       "length": 3,
       "value": "\"5\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Utilities\/Helper\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 3555,
+      "offset": 3596,
       "length": 3,
       "value": "\"6\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Utilities\/Helper\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 3584,
+      "offset": 3625,
       "length": 3,
       "value": "\"7\""
     },
@@ -9897,6 +9904,34 @@
       "offset": 5395,
       "length": 18,
       "value": "\"certPendingStaus\""
+    },
+    {
+      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Models\/Request\/CheckCertificateExpiryRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 394,
+      "length": 10,
+      "value": "\"Username\""
+    },
+    {
+      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Models\/Request\/CheckCertificateExpiryRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 429,
+      "length": 10,
+      "value": "\"ClientID\""
+    },
+    {
+      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Models\/Request\/CheckCertificateExpiryRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 462,
+      "length": 8,
+      "value": "\"Serial\""
+    },
+    {
+      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Models\/Request\/CheckCertificateExpiryRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 495,
+      "length": 10,
+      "value": "\"DeviceID\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Models\/Request\/CertStatusRequest.swift",

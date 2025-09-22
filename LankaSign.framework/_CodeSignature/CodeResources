@@ -42,7 +42,7 @@
 		</data>
 		<key>Modules/LankaSign.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		DM7WRCSmHtn0tS8gZ1aX73uqc/U=
+		F8v/FNnocyJbVbN4CuXg7n/zouA=
 		</data>
 		<key>Modules/LankaSign.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
@@ -58,7 +58,7 @@
 		</data>
 		<key>Modules/LankaSign.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		2LfaTTqQpbw7Rh6ZQpI3fMuomDM=
+		EzyGgYP2csKgUsiGyKYsHBo+p3g=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -155,7 +155,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			R+wq6SWLB8ui/HH2cMRN2ot9gXbofOaUJhV9srdPAjs=
+			o80ht08J2a4Cq4sddcOTPTI+s84q0XiHYc/b6hjplmQ=
 			</data>
 		</dict>
 		<key>Modules/LankaSign.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
@@ -183,7 +183,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			IkPOvnrJmObYp2fOxwt4gB7KHH0gPSeM4eB97Uo0YfU=
+			J8l9i8MSvE7QFn36Y3mL1UPwYmswCDfta6RABLHYJbY=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
