@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.0 effective-5.10 (swiftlang-6.0.0.9.10 clang-1600.0.26.2)
-// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -enable-bare-slash-regex -module-name LankaSign
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+// swift-compiler-version: Apple Swift version 6.2.3 effective-5.10 (swiftlang-6.2.3.3.21 clang-1700.6.3.2)
+// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name LankaSign
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.3
 import Alamofire
 import CommonCrypto
 import DeveloperToolsSupport
@@ -25,7 +25,9 @@ public enum UnlockMode : Swift.String {
   case faceID
   case Pin
   case None
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
+  #endif
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
@@ -36,7 +38,9 @@ public enum AuthenticationMode : Swift.Int, Swift.Codable {
   case keyStoreOnly
   case hybrid
   case none
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
+  #endif
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
@@ -49,7 +53,9 @@ public enum AuthenticationInfo : Swift.Int, Swift.Codable {
   case deviceAuthenticator
   case hybrid
   case none
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
+  #endif
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
@@ -58,7 +64,9 @@ public enum AuthenticationInfo : Swift.Int, Swift.Codable {
 public enum AuthenticationType : Swift.Int, Swift.Codable {
   case StrongBiometric
   case DeviceCredencial
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
+  #endif
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
@@ -73,24 +81,36 @@ public enum RulesMode : Swift.Int, Swift.Codable {
   case KSPT
   case KSPF
   case NONE
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
+  #endif
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
   }
 }
 public struct UserData : Swift.Codable {
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(userName: Swift.String?, CN: Swift.String?, E: Swift.String?, MB: Swift.String?, UID: Swift.String?, O: Swift.String?, OU: Swift.String?, STREET: Swift.String?, L: Swift.String?, S: Swift.String?, C: Swift.String?)
+  #endif
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
 @objc @_inheritsConvenienceInitializers public class CertificateSigningRequest : ObjectiveC.NSObject {
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(commonName: Swift.String? = nil, organizationName: Swift.String? = nil, organizationUnitName: Swift.String? = nil, countryName: Swift.String? = nil, stateOrProvinceName: Swift.String? = nil, localityName: Swift.String? = nil, emailAddress: Swift.String? = nil, uid: Swift.String? = nil, streetAddress: Swift.String? = nil, description: Swift.String? = nil, nic: Swift.String? = nil, deviceID: Swift.String? = nil, clientID: Swift.String? = nil, applicationId: Swift.String? = nil, keyAlgorithm: LankaSign.KeyAlgorithm)
+  #endif
   @objc convenience override dynamic public init()
   convenience public init(keyAlgorithm: LankaSign.KeyAlgorithm)
+  #if compiler(>=5.3) && $NonescapableTypes
   public func build(_ publicKeyBits: Foundation.Data, privateKey: Security.SecKey, publicKey: Security.SecKey? = nil) -> Foundation.Data?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func buildAndEncodeDataAsString(_ publicKeyBits: Foundation.Data, privateKey: Security.SecKey, publicKey: Security.SecKey? = nil) -> Swift.String?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func buildCSRAndReturnString(_ publicKeyBits: Foundation.Data, privateKey: Security.SecKey, publicKey: Security.SecKey? = nil) -> Swift.String?
+  #endif
   @objc deinit
 }
 public typealias actionHandler = (LankaSign.LankaSignResult<Swift.String>) -> ()
@@ -132,21 +152,33 @@ public enum LankasignStausCodes {
 @_hasMissingDesignatedInitializers open class LankaSignSDK {
   public static let sharedInstance: LankaSign.LankaSignSDK
   public func initSDK() throws
+  #if compiler(>=5.3) && $NonescapableTypes
   public func initSDK(channelID: Swift.String?) throws
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func initSDK(channelID: Swift.String?, clientData: LankaSign.LankaSignClientData?) throws
+  #endif
   public func initSDKE(channelID: Swift.String) throws
+  #if compiler(>=5.3) && $NonescapableTypes
   public func initSDKE(channelID: Swift.String, clientData: LankaSign.LankaSignClientData?) throws
+  #endif
   public func reInit() throws
+  #if compiler(>=5.3) && $NonescapableTypes
   public func reInit(clientData: LankaSign.LankaSignClientData?) throws
+  #endif
   public func reInitSDK() throws
   public func resetSDK() throws
   public func isUserRegistered() throws -> Swift.Bool
+  #if compiler(>=5.3) && $NonescapableTypes
   public func enroll(user: LankaSign.UserData?, completion: @escaping LankaSign.resultHandler) throws
+  #endif
   public func sign(contentToBeSigned: Swift.String, completion: @escaping LankaSign.resultHandler, signCompletionHandler: @escaping LankaSign.signedCompletionHandler) throws
   public func revokeCertificate(reason: Swift.String, completion: @escaping LankaSign.resultHandler) throws
   public func checkCertificateExpiry(completion: @escaping LankaSign.resultHandler) throws
   public func renewCertificate(completion: @escaping LankaSign.resultHandler) throws
+  #if compiler(>=5.3) && $NonescapableTypes
   public func getPublicCertificate() throws -> Swift.String?
+  #endif
   public func didReceiveRemoteNotification(_ userInfo: [Swift.AnyHashable : Any]) throws
   public func willPresent(_ notification: UserNotifications.UNNotification, completionHandler: @escaping (UserNotifications.UNNotificationPresentationOptions) -> Swift.Void) throws
   @objc deinit
@@ -178,18 +210,26 @@ public enum KeyAlgorithm {
 }
 public struct LankaSignClientData : Swift.Codable {
   public init(from decoder: any Swift.Decoder) throws
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(packageName: Swift.String?, clientId: Swift.String?, serial: Swift.String?, applicationId: Swift.String?, allowedProfiles: [LankaSign.SecurityProfile]?)
+  #endif
   public func encode(to encoder: any Swift.Encoder) throws
 }
 public struct SecurityProfile : Swift.Codable {
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(invalidateBiometric: Swift.Bool, authenticationType: LankaSign.AuthenticationType?)
+  #endif
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
 @_hasMissingDesignatedInitializers public class LankaSignResult<T> {
   public var state: Swift.Bool
+  #if compiler(>=5.3) && $NonescapableTypes
   public func getData() -> T?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func getStatusCode() -> Swift.Int?
+  #endif
   public var error: Swift.String?
   public var errorCode: Swift.String?
   public var errorCodeUnique: Swift.String?
