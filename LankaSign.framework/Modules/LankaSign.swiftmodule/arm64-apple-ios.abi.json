@@ -6157,6 +6157,16 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "LankaSign",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -10124,6 +10134,48 @@
       "offset": 792,
       "length": 15,
       "value": "\"Authenticator\""
+    },
+    {
+      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Utilities\/Helper\/CardView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 254,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Utilities\/Helper\/CardView.swift",
+      "kind": "FloatLiteral",
+      "offset": 526,
+      "length": 4,
+      "value": "0.15"
+    },
+    {
+      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Utilities\/Helper\/CardView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 662,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Utilities\/Helper\/CardView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 806,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Utilities\/Helper\/CardView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 817,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Utilities\/Helper\/CardView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 948,
+      "length": 1,
+      "value": "0"
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Utilities\/Helper\/LankaSignResult.swift",
