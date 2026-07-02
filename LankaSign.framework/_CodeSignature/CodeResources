@@ -10,7 +10,43 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		HDj86tv/CpDDT//ZftXJ1WrDy2g=
+		7ONVIBWPUdrnaGNuLOSUxyBGEvQ=
+		</data>
+		<key>AuthenticatorScreen.storyboardc/AuthenticatorScreen.nib</key>
+		<data>
+		E1WRctGFZdG0KlWv+8HMg7dotYk=
+		</data>
+		<key>AuthenticatorScreen.storyboardc/Info.plist</key>
+		<data>
+		U7ry1nXM6Asyu7k3g3LX6bcIvfw=
+		</data>
+		<key>AuthenticatorScreen.storyboardc/Y6W-OH-hqX-view-5EZ-qb-Rvc.nib</key>
+		<data>
+		qPe05ohPLjCkJ4HRKWfhVF4T4DQ=
+		</data>
+		<key>BiometricView.storyboardc/02s-WF-Qcv-view-0rG-c7-02i.nib</key>
+		<data>
+		AU0nP8iuasxPBWpuA3v1IhhBRuU=
+		</data>
+		<key>BiometricView.storyboardc/BiometricVC.nib</key>
+		<data>
+		jVW6xunyQlqHnKgF9CDPpbNXXTY=
+		</data>
+		<key>BiometricView.storyboardc/Info.plist</key>
+		<data>
+		xeuVrsPg4cVUWLA3Xp7gac2m3wU=
+		</data>
+		<key>ClearView.storyboardc/ClearVC.nib</key>
+		<data>
+		CE3U9hvfDsOQKpZTpdCsByunYyA=
+		</data>
+		<key>ClearView.storyboardc/Info.plist</key>
+		<data>
+		o+hK4e6vxjZnZ72i8JcHD3rHLkE=
+		</data>
+		<key>ClearView.storyboardc/Y6W-OH-hqX-view-5EZ-qb-Rvc.nib</key>
+		<data>
+		qLX/y/qEjr1JBzLk0vv4L/qLses=
 		</data>
 		<key>Headers/LankaSign-Swift.h</key>
 		<data>
@@ -40,9 +76,21 @@
 		<data>
 		zn9Omj99gx6sT7A7QKecoGAsZ18=
 		</data>
+		<key>MainView.storyboardc/Ai3-9S-mr4-view-FFG-ni-4sC.nib</key>
+		<data>
+		maK/GIGW26RY/IwhADi35Cy4X2Y=
+		</data>
+		<key>MainView.storyboardc/Info.plist</key>
+		<data>
+		/0v9Io8IxPBE3WivwfILeKjQge0=
+		</data>
+		<key>MainView.storyboardc/MainVC.nib</key>
+		<data>
+		z4D5/v0k7Zc0QHfK7mXHaSr5X64=
+		</data>
 		<key>Modules/LankaSign.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		Qzav1yFjjW2yOFvxmPi+7vENDYU=
+		GBL0lCfDxhUZeSTFIBePd5raIz0=
 		</data>
 		<key>Modules/LankaSign.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
@@ -58,7 +106,7 @@
 		</data>
 		<key>Modules/LankaSign.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		D+9Qh7VSKtbPKg2LQE65/2f23oo=
+		tKMwmbPmaaEUC2PEiOdykZaoW10=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -106,7 +154,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			7PWk9EkE7GqybCud3UwsBdZUvzWYUDo6payEQQIW0Pk=
+			wP+t2Kwq5T3rxRtq1zIKYvw7OpRtU+3C3SEYzw7vCgw=
+			</data>
+		</dict>
+		<key>AuthenticatorScreen.storyboardc/AuthenticatorScreen.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			/I+KuiPiuVAvFg3mCsAaeE251/lEJelmwocx2jyggXU=
+			</data>
+		</dict>
+		<key>AuthenticatorScreen.storyboardc/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			R4B8teEzlcRJjzRujCuw57NVketVfapQH27bshB6MBQ=
+			</data>
+		</dict>
+		<key>AuthenticatorScreen.storyboardc/Y6W-OH-hqX-view-5EZ-qb-Rvc.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			eY2xUL0E7RtfU3K2iDgDvZPqP4IO0GDiuyhJho31nbA=
+			</data>
+		</dict>
+		<key>BiometricView.storyboardc/02s-WF-Qcv-view-0rG-c7-02i.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			1R1n5v8BjB9o5UupppcideHG9i9zC4q8RpPPIQVkd1s=
+			</data>
+		</dict>
+		<key>BiometricView.storyboardc/BiometricVC.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			o+wGg2A/RULvcKujZk8ve3SzYSKV2GamhhD/9GI1318=
+			</data>
+		</dict>
+		<key>BiometricView.storyboardc/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			+fMH105ShDMflk7eCY1YAFvRLHWivljica5O9hr2y0A=
+			</data>
+		</dict>
+		<key>ClearView.storyboardc/ClearVC.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Sy7ZJ6x/PWwkSd7wf1ykZcG7JEYOy0IY6iJ1CHsdMsA=
+			</data>
+		</dict>
+		<key>ClearView.storyboardc/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			yfZ2PQLdIdi/CnBP7BJ9Sm07XNtiI7+5jzfOLlmZU54=
+			</data>
+		</dict>
+		<key>ClearView.storyboardc/Y6W-OH-hqX-view-5EZ-qb-Rvc.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			nsijPZpBuwV9GStN+khX14XHNoEEGJ7BaWxSrrmrmVQ=
 			</data>
 		</dict>
 		<key>Headers/LankaSign-Swift.h</key>
@@ -151,11 +262,32 @@
 			KRTjuLRhoUceegpiT1a1ysJvI0mGwdkqq6reY04CC4w=
 			</data>
 		</dict>
+		<key>MainView.storyboardc/Ai3-9S-mr4-view-FFG-ni-4sC.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			9pQ/83WU3K6UxWhIjNjiauaNP5u5+/9c34xmitQ0NWY=
+			</data>
+		</dict>
+		<key>MainView.storyboardc/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			iOWKxeWUY7ENZMetnoBXKZ+5GJ/ftwXvtXf3AjZfd10=
+			</data>
+		</dict>
+		<key>MainView.storyboardc/MainVC.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			PyPAewethBN2aCyfbXdG3Ilt8TOJZzPiGc3uTpfzCeM=
+			</data>
+		</dict>
 		<key>Modules/LankaSign.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			T/4A/LTq77o+GXH23ApY4QvAM3+HXO3ARQiDtqqkwyc=
+			dlGh00OE4ld9FyVPE+r2TTkky5onHH+qhGha1Ii3SZI=
 			</data>
 		</dict>
 		<key>Modules/LankaSign.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
@@ -183,7 +315,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ia8sSBDCfrbQie5x129gBMc3Ow9t0fskPpcc7g4xyq0=
+			MssLzzXOTdntylp97SlVhGbUjivzPZY+0vKPaz3XYFk=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

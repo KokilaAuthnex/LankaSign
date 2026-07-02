@@ -3,12 +3,12 @@ Pod::Spec.new do |s|
   # ―――----------------------------------――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
   s.name         = "LankaSign"
-  s.version      = "0.1.32"
+  s.version      = "0.1.33"
   s.summary      = "LankaSignSDK for Digital signing."
   s.description  = "Digital signing product created by Authnex"
   s.homepage     = "https://www.authnex.com"
   #s.license     = { :type => 'MIT', :file => 'LICENSE' }
-  s.author       = { "Lahiru Chathuranga" => "info@authnex.lk" }
+  s.author       = { "Kokila Ekanayake" => "kokila@authnex.lk" }
 
   # ―――----------------------------------――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
