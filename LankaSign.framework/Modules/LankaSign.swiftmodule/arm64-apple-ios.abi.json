@@ -47,13 +47,6 @@
       },
       {
         "kind": "Import",
-        "name": "SwiftyBeaver",
-        "printedName": "SwiftyBeaver",
-        "declKind": "Import",
-        "moduleName": "LankaSign"
-      },
-      {
-        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
