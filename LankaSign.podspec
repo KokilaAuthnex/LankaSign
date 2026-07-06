@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
   # ―――----------------------------------――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
   s.name         = "LankaSign"
-  s.version      = "0.1.43"
+  s.version      = "0.1.44"
   s.summary      = "LankaSignSDK for Digital signing."
   s.description  = "Digital signing product created by Authnex"
   s.homepage     = "https://www.authnex.com"
@@ -27,6 +27,5 @@ Pod::Spec.new do |s|
   s.dependency 'SwiftKeychainWrapper', '~> 3.4.0'
   s.dependency 'Toast-Swift', '~> 5.0.1'
   s.dependency 'AlamofireImage'
-  s.dependency 'SwiftyBeaver'
   s.dependency 'OpenSSL-Universal'
 end
