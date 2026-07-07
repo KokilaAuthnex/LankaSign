@@ -3569,13 +3569,6 @@
       },
       {
         "kind": "Import",
-        "name": "SwCrypt",
-        "printedName": "SwCrypt",
-        "declKind": "Import",
-        "moduleName": "LankaSign"
-      },
-      {
-        "kind": "Import",
         "name": "Alamofire",
         "printedName": "Alamofire",
         "declKind": "Import",
@@ -9340,9 +9333,16 @@
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/NetworkManager\/SDKHttpClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 413,
-      "length": 1,
-      "value": "5"
+      "offset": 486,
+      "length": 2,
+      "value": "30"
+    },
+    {
+      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/NetworkManager\/SDKHttpClient.swift",
+      "kind": "IntegerLiteral",
+      "offset": 540,
+      "length": 2,
+      "value": "60"
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Utilities\/Helper\/LankaSignStatusCodes.swift",
