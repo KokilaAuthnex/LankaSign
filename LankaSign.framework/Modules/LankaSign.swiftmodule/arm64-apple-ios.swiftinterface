@@ -102,6 +102,9 @@ public var authenticator: LankaSign.UnlockMode
 public var selectedAuthenticationMode: LankaSign.AuthenticationMode
 public var selectedAuthenticationType: LankaSign.AuthenticationInfo
 public var rulesMode: LankaSign.RulesMode
+public var selectedInvalidateBiometric: Swift.Bool
+public var selectedStrongBoxRequired: Swift.Bool
+public var selectedUserAuthRequired: Swift.Bool
 public enum LankaSignException : Swift.Error {
   case SecurityException(Swift.String)
   case ContentException(Swift.String)
@@ -181,7 +184,6 @@ public struct LankaSignClientData : Swift.Codable {
   public func encode(to encoder: any Swift.Encoder) throws
 }
 public struct SecurityProfile : Swift.Codable {
-  public init(invalidateBiometric: Swift.Bool, authenticationType: LankaSign.AuthenticationType?)
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }

@@ -3102,6 +3102,265 @@
         ]
       },
       {
+        "kind": "Var",
+        "name": "selectedInvalidateBiometric",
+        "printedName": "selectedInvalidateBiometric",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Bool",
+            "printedName": "Swift.Bool",
+            "usr": "s:Sb"
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:9LankaSign27selectedInvalidateBiometricSbvp",
+        "mangledName": "$s9LankaSign27selectedInvalidateBiometricSbvp",
+        "moduleName": "LankaSign",
+        "declAttributes": [
+          "HasInitialValue",
+          "HasStorage",
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "hasStorage": true,
+        "accessors": [
+          {
+            "kind": "Accessor",
+            "name": "Get",
+            "printedName": "Get()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Accessor",
+            "usr": "s:9LankaSign27selectedInvalidateBiometricSbvg",
+            "mangledName": "$s9LankaSign27selectedInvalidateBiometricSbvg",
+            "moduleName": "LankaSign",
+            "implicit": true,
+            "accessorKind": "get"
+          },
+          {
+            "kind": "Accessor",
+            "name": "Set",
+            "printedName": "Set()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Accessor",
+            "usr": "s:9LankaSign27selectedInvalidateBiometricSbvs",
+            "mangledName": "$s9LankaSign27selectedInvalidateBiometricSbvs",
+            "moduleName": "LankaSign",
+            "implicit": true,
+            "accessorKind": "set"
+          },
+          {
+            "kind": "Accessor",
+            "name": "Modify",
+            "printedName": "Modify()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Accessor",
+            "usr": "s:9LankaSign27selectedInvalidateBiometricSbvM",
+            "mangledName": "$s9LankaSign27selectedInvalidateBiometricSbvM",
+            "moduleName": "LankaSign",
+            "implicit": true,
+            "accessorKind": "_modify"
+          }
+        ]
+      },
+      {
+        "kind": "Var",
+        "name": "selectedStrongBoxRequired",
+        "printedName": "selectedStrongBoxRequired",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Bool",
+            "printedName": "Swift.Bool",
+            "usr": "s:Sb"
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:9LankaSign25selectedStrongBoxRequiredSbvp",
+        "mangledName": "$s9LankaSign25selectedStrongBoxRequiredSbvp",
+        "moduleName": "LankaSign",
+        "declAttributes": [
+          "HasInitialValue",
+          "HasStorage",
+          "AccessControl"
+        ],
+        "hasStorage": true,
+        "accessors": [
+          {
+            "kind": "Accessor",
+            "name": "Get",
+            "printedName": "Get()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Accessor",
+            "usr": "s:9LankaSign25selectedStrongBoxRequiredSbvg",
+            "mangledName": "$s9LankaSign25selectedStrongBoxRequiredSbvg",
+            "moduleName": "LankaSign",
+            "implicit": true,
+            "accessorKind": "get"
+          },
+          {
+            "kind": "Accessor",
+            "name": "Set",
+            "printedName": "Set()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Accessor",
+            "usr": "s:9LankaSign25selectedStrongBoxRequiredSbvs",
+            "mangledName": "$s9LankaSign25selectedStrongBoxRequiredSbvs",
+            "moduleName": "LankaSign",
+            "implicit": true,
+            "accessorKind": "set"
+          },
+          {
+            "kind": "Accessor",
+            "name": "Modify",
+            "printedName": "Modify()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Accessor",
+            "usr": "s:9LankaSign25selectedStrongBoxRequiredSbvM",
+            "mangledName": "$s9LankaSign25selectedStrongBoxRequiredSbvM",
+            "moduleName": "LankaSign",
+            "implicit": true,
+            "accessorKind": "_modify"
+          }
+        ]
+      },
+      {
+        "kind": "Var",
+        "name": "selectedUserAuthRequired",
+        "printedName": "selectedUserAuthRequired",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Bool",
+            "printedName": "Swift.Bool",
+            "usr": "s:Sb"
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:9LankaSign24selectedUserAuthRequiredSbvp",
+        "mangledName": "$s9LankaSign24selectedUserAuthRequiredSbvp",
+        "moduleName": "LankaSign",
+        "declAttributes": [
+          "HasInitialValue",
+          "HasStorage",
+          "AccessControl"
+        ],
+        "hasStorage": true,
+        "accessors": [
+          {
+            "kind": "Accessor",
+            "name": "Get",
+            "printedName": "Get()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Accessor",
+            "usr": "s:9LankaSign24selectedUserAuthRequiredSbvg",
+            "mangledName": "$s9LankaSign24selectedUserAuthRequiredSbvg",
+            "moduleName": "LankaSign",
+            "implicit": true,
+            "accessorKind": "get"
+          },
+          {
+            "kind": "Accessor",
+            "name": "Set",
+            "printedName": "Set()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Accessor",
+            "usr": "s:9LankaSign24selectedUserAuthRequiredSbvs",
+            "mangledName": "$s9LankaSign24selectedUserAuthRequiredSbvs",
+            "moduleName": "LankaSign",
+            "implicit": true,
+            "accessorKind": "set"
+          },
+          {
+            "kind": "Accessor",
+            "name": "Modify",
+            "printedName": "Modify()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Accessor",
+            "usr": "s:9LankaSign24selectedUserAuthRequiredSbvM",
+            "mangledName": "$s9LankaSign24selectedUserAuthRequiredSbvM",
+            "moduleName": "LankaSign",
+            "implicit": true,
+            "accessorKind": "_modify"
+          }
+        ]
+      },
+      {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
@@ -5755,47 +6014,6 @@
         "name": "SecurityProfile",
         "printedName": "SecurityProfile",
         "children": [
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(invalidateBiometric:authenticationType:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "SecurityProfile",
-                "printedName": "LankaSign.SecurityProfile",
-                "usr": "s:9LankaSign15SecurityProfileV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "LankaSign.AuthenticationType?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "AuthenticationType",
-                    "printedName": "LankaSign.AuthenticationType",
-                    "usr": "s:9LankaSign18AuthenticationTypeO"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:9LankaSign15SecurityProfileV19invalidateBiometric18authenticationTypeACSb_AA014AuthenticationH0OSgtcfc",
-            "mangledName": "$s9LankaSign15SecurityProfileV19invalidateBiometric18authenticationTypeACSb_AA014AuthenticationH0OSgtcfc",
-            "moduleName": "LankaSign",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "init_kind": "Designated"
-          },
           {
             "kind": "Constructor",
             "name": "init",
@@ -9240,6 +9458,27 @@
       "value": "299"
     },
     {
+      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Utilities\/Helper\/ActionHandlers.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1011,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Utilities\/Helper\/ActionHandlers.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1062,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Utilities\/Helper\/ActionHandlers.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1112,
+      "length": 4,
+      "value": "true"
+    },
+    {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Views\/BiometricView\/BiometricVC.swift",
       "kind": "BooleanLiteral",
       "offset": 576,
@@ -9732,16 +9971,44 @@
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Models\/Other\/LankaSignClientData.swift",
       "kind": "StringLiteral",
-      "offset": 1882,
+      "offset": 2363,
       "length": 21,
       "value": "\"InvalidateBiometric\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Models\/Other\/LankaSignClientData.swift",
       "kind": "StringLiteral",
-      "offset": 1938,
+      "offset": 2419,
       "length": 20,
       "value": "\"AuthenticationType\""
+    },
+    {
+      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Models\/Other\/LankaSignClientData.swift",
+      "kind": "StringLiteral",
+      "offset": 2473,
+      "length": 19,
+      "value": "\"StrongBoxRequired\""
+    },
+    {
+      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Models\/Other\/LankaSignClientData.swift",
+      "kind": "StringLiteral",
+      "offset": 2525,
+      "length": 18,
+      "value": "\"UserAuthRequired\""
+    },
+    {
+      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Models\/Other\/LankaSignClientData.swift",
+      "kind": "StringLiteral",
+      "offset": 2574,
+      "length": 16,
+      "value": "\"HardwareBacked\""
+    },
+    {
+      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Models\/Other\/LankaSignClientData.swift",
+      "kind": "StringLiteral",
+      "offset": 2622,
+      "length": 17,
+      "value": "\"UserEnforcement\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Models\/Response\/InitResponse.swift",
