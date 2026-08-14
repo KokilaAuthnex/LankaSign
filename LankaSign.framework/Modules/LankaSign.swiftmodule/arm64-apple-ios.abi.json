@@ -1142,6 +1142,43 @@
             "moduleName": "LankaSign"
           },
           {
+            "kind": "Var",
+            "name": "Hybrid",
+            "printedName": "Hybrid",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(LankaSign.AuthenticationType.Type) -> LankaSign.AuthenticationType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AuthenticationType",
+                    "printedName": "LankaSign.AuthenticationType",
+                    "usr": "s:9LankaSign18AuthenticationTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "LankaSign.AuthenticationType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AuthenticationType",
+                        "printedName": "LankaSign.AuthenticationType",
+                        "usr": "s:9LankaSign18AuthenticationTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9LankaSign18AuthenticationTypeO6HybridyA2CmF",
+            "mangledName": "$s9LankaSign18AuthenticationTypeO6HybridyA2CmF",
+            "moduleName": "LankaSign"
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init(rawValue:)",
@@ -5856,7 +5893,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(packageName:clientId:serial:applicationId:allowedProfiles:)",
+            "printedName": "init(packageName:clientId:serial:applicationId:allowedProfiles:deviceSecurityConfig:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -5941,11 +5978,25 @@
                   }
                 ],
                 "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "LankaSign.DeviceSecurityConfig?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DeviceSecurityConfig",
+                    "printedName": "LankaSign.DeviceSecurityConfig",
+                    "usr": "s:9LankaSign20DeviceSecurityConfigV"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:9LankaSign0aB10ClientDataV11packageName8clientId6serial011applicationH015allowedProfilesACSSSg_A3ISayAA15SecurityProfileVGSgtcfc",
-            "mangledName": "$s9LankaSign0aB10ClientDataV11packageName8clientId6serial011applicationH015allowedProfilesACSSSg_A3ISayAA15SecurityProfileVGSgtcfc",
+            "usr": "s:9LankaSign0aB10ClientDataV11packageName8clientId6serial011applicationH015allowedProfiles20deviceSecurityConfigACSSSg_A3JSayAA0N7ProfileVGSgAA06DevicenO0VSgtcfc",
+            "mangledName": "$s9LankaSign0aB10ClientDataV11packageName8clientId6serial011applicationH015allowedProfiles20deviceSecurityConfigACSSSg_A3JSayAA0N7ProfileVGSgAA06DevicenO0VSgtcfc",
             "moduleName": "LankaSign",
             "declAttributes": [
               "AccessControl"
@@ -6108,6 +6159,328 @@
             "printedName": "Escapable",
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DeviceSecurityConfig",
+        "printedName": "DeviceSecurityConfig",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DeviceSecurityConfig",
+                "printedName": "LankaSign.DeviceSecurityConfig",
+                "usr": "s:9LankaSign20DeviceSecurityConfigV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9LankaSign20DeviceSecurityConfigV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s9LankaSign20DeviceSecurityConfigV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "LankaSign",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9LankaSign20DeviceSecurityConfigV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s9LankaSign20DeviceSecurityConfigV6encode2toys7Encoder_p_tKF",
+            "moduleName": "LankaSign",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:9LankaSign20DeviceSecurityConfigV",
+        "mangledName": "$s9LankaSign20DeviceSecurityConfigV",
+        "moduleName": "LankaSign",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SecurityLevel",
+        "printedName": "SecurityLevel",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "SoftwareBackend",
+            "printedName": "SoftwareBackend",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(LankaSign.SecurityLevel.Type) -> LankaSign.SecurityLevel",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SecurityLevel",
+                    "printedName": "LankaSign.SecurityLevel",
+                    "usr": "s:9LankaSign13SecurityLevelO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "LankaSign.SecurityLevel.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SecurityLevel",
+                        "printedName": "LankaSign.SecurityLevel",
+                        "usr": "s:9LankaSign13SecurityLevelO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9LankaSign13SecurityLevelO15SoftwareBackendyA2CmF",
+            "mangledName": "$s9LankaSign13SecurityLevelO15SoftwareBackendyA2CmF",
+            "moduleName": "LankaSign"
+          },
+          {
+            "kind": "Var",
+            "name": "HardwareBackend",
+            "printedName": "HardwareBackend",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(LankaSign.SecurityLevel.Type) -> LankaSign.SecurityLevel",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SecurityLevel",
+                    "printedName": "LankaSign.SecurityLevel",
+                    "usr": "s:9LankaSign13SecurityLevelO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "LankaSign.SecurityLevel.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SecurityLevel",
+                        "printedName": "LankaSign.SecurityLevel",
+                        "usr": "s:9LankaSign13SecurityLevelO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9LankaSign13SecurityLevelO15HardwareBackendyA2CmF",
+            "mangledName": "$s9LankaSign13SecurityLevelO15HardwareBackendyA2CmF",
+            "moduleName": "LankaSign"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "LankaSign.SecurityLevel?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SecurityLevel",
+                    "printedName": "LankaSign.SecurityLevel",
+                    "usr": "s:9LankaSign13SecurityLevelO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9LankaSign13SecurityLevelO8rawValueACSgSi_tcfc",
+            "mangledName": "$s9LankaSign13SecurityLevelO8rawValueACSgSi_tcfc",
+            "moduleName": "LankaSign",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9LankaSign13SecurityLevelO8rawValueSivp",
+            "mangledName": "$s9LankaSign13SecurityLevelO8rawValueSivp",
+            "moduleName": "LankaSign",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9LankaSign13SecurityLevelO8rawValueSivg",
+                "mangledName": "$s9LankaSign13SecurityLevelO8rawValueSivg",
+                "moduleName": "LankaSign",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:9LankaSign13SecurityLevelO",
+        "mangledName": "$s9LankaSign13SecurityLevelO",
+        "moduleName": "LankaSign",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
           }
         ]
       },
@@ -7472,357 +7845,364 @@
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Utilities\/Helper\/Enums.swift",
       "kind": "IntegerLiteral",
-      "offset": 5070,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Utilities\/Helper\/Enums.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5160,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Utilities\/Helper\/Enums.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5209,
+      "offset": 5031,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Utilities\/Helper\/Enums.swift",
       "kind": "IntegerLiteral",
-      "offset": 5271,
+      "offset": 5090,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Utilities\/Helper\/Enums.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5180,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Utilities\/Helper\/Enums.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5229,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Utilities\/Helper\/Enums.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5291,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Utilities\/Helper\/Enums.swift",
       "kind": "IntegerLiteral",
-      "offset": 5348,
+      "offset": 5368,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Utilities\/Helper\/Enums.swift",
       "kind": "IntegerLiteral",
-      "offset": 5476,
+      "offset": 5496,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Utilities\/Helper\/Enums.swift",
       "kind": "IntegerLiteral",
-      "offset": 5516,
+      "offset": 5536,
       "length": 1,
       "value": "6"
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Utilities\/Helper\/Enums.swift",
       "kind": "IntegerLiteral",
-      "offset": 5550,
+      "offset": 5570,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Utilities\/Helper\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 5606,
+      "offset": 5626,
       "length": 3,
       "value": "\"0\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Utilities\/Helper\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 5637,
+      "offset": 5657,
       "length": 3,
       "value": "\"1\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Utilities\/Helper\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 5673,
+      "offset": 5693,
       "length": 3,
       "value": "\"2\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Utilities\/Helper\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 5712,
+      "offset": 5732,
       "length": 3,
       "value": "\"3\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Utilities\/Helper\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 5740,
+      "offset": 5760,
       "length": 3,
       "value": "\"4\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Utilities\/Helper\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 5771,
+      "offset": 5791,
       "length": 3,
       "value": "\"5\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Utilities\/Helper\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 5803,
+      "offset": 5823,
       "length": 3,
       "value": "\"6\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Utilities\/Helper\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 5826,
+      "offset": 5846,
       "length": 3,
       "value": "\"7\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Utilities\/Helper\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 5860,
+      "offset": 5880,
       "length": 3,
       "value": "\"8\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Utilities\/Helper\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 5883,
+      "offset": 5903,
       "length": 3,
       "value": "\"9\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Utilities\/Helper\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 5949,
+      "offset": 5969,
       "length": 7,
       "value": "\"0x3E8\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Utilities\/Helper\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 5989,
+      "offset": 6009,
       "length": 7,
       "value": "\"0x7D0\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Utilities\/Helper\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 6033,
+      "offset": 6053,
       "length": 7,
       "value": "\"0xBB8\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Utilities\/Helper\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 6078,
+      "offset": 6098,
       "length": 7,
       "value": "\"0xFA0\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Utilities\/Helper\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 6116,
+      "offset": 6136,
       "length": 8,
       "value": "\"0x1B58\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Utilities\/Helper\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 6144,
+      "offset": 6164,
       "length": 8,
       "value": "\"0x1F40\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Utilities\/Helper\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 6177,
+      "offset": 6197,
       "length": 8,
       "value": "\"0x2AF8\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Utilities\/Helper\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 6206,
+      "offset": 6226,
       "length": 8,
       "value": "\"0x2EE0\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Utilities\/Helper\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 6240,
+      "offset": 6260,
       "length": 8,
       "value": "\"0x32C8\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Utilities\/Helper\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 6307,
+      "offset": 6327,
       "length": 3,
       "value": "\"1\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Utilities\/Helper\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 6332,
+      "offset": 6352,
       "length": 3,
       "value": "\"2\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Utilities\/Helper\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 6367,
+      "offset": 6387,
       "length": 3,
       "value": "\"3\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Utilities\/Helper\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 6394,
+      "offset": 6414,
       "length": 3,
       "value": "\"4\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Utilities\/Helper\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 6415,
+      "offset": 6435,
       "length": 3,
       "value": "\"5\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Utilities\/Helper\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 6452,
+      "offset": 6472,
       "length": 3,
       "value": "\"6\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Utilities\/Helper\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 6485,
+      "offset": 6505,
       "length": 3,
       "value": "\"7\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Utilities\/Helper\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 6521,
+      "offset": 6541,
       "length": 3,
       "value": "\"8\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Utilities\/Helper\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 6560,
+      "offset": 6580,
       "length": 3,
       "value": "\"9\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Utilities\/Helper\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 6584,
+      "offset": 6604,
       "length": 3,
       "value": "\"A\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Utilities\/Helper\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 6603,
+      "offset": 6623,
       "length": 3,
       "value": "\"B\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Utilities\/Helper\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 6629,
+      "offset": 6649,
       "length": 3,
       "value": "\"C\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Utilities\/Helper\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 6669,
+      "offset": 6689,
       "length": 3,
       "value": "\"D\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Utilities\/Helper\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 6699,
+      "offset": 6719,
       "length": 3,
       "value": "\"E\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Utilities\/Helper\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 6723,
+      "offset": 6743,
       "length": 3,
       "value": "\"F\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Utilities\/Helper\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 6759,
+      "offset": 6779,
       "length": 3,
       "value": "\"G\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Utilities\/Helper\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 6792,
+      "offset": 6812,
       "length": 3,
       "value": "\"H\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Utilities\/Helper\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 6862,
+      "offset": 6882,
       "length": 3,
       "value": "\"1\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Utilities\/Helper\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 6883,
+      "offset": 6903,
       "length": 3,
       "value": "\"2\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Utilities\/Helper\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 6913,
+      "offset": 6933,
       "length": 3,
       "value": "\"3\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Utilities\/Helper\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 6944,
+      "offset": 6964,
       "length": 3,
       "value": "\"4\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Utilities\/Helper\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 6975,
+      "offset": 6995,
       "length": 3,
       "value": "\"5\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Utilities\/Helper\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 7005,
+      "offset": 7025,
       "length": 3,
       "value": "\"6\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Utilities\/Helper\/Enums.swift",
       "kind": "StringLiteral",
-      "offset": 7034,
+      "offset": 7054,
       "length": 3,
       "value": "\"7\""
     },
@@ -9950,79 +10330,142 @@
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Models\/Other\/LankaSignClientData.swift",
       "kind": "StringLiteral",
-      "offset": 391,
+      "offset": 443,
       "length": 14,
       "value": "\"package_name\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Models\/Other\/LankaSignClientData.swift",
       "kind": "StringLiteral",
-      "offset": 430,
+      "offset": 482,
       "length": 11,
       "value": "\"client_id\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Models\/Other\/LankaSignClientData.swift",
       "kind": "StringLiteral",
-      "offset": 464,
+      "offset": 516,
       "length": 8,
       "value": "\"serial\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Models\/Other\/LankaSignClientData.swift",
       "kind": "StringLiteral",
-      "offset": 502,
+      "offset": 554,
       "length": 15,
       "value": "\"ApplicationID\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Models\/Other\/LankaSignClientData.swift",
       "kind": "StringLiteral",
-      "offset": 549,
+      "offset": 601,
       "length": 17,
       "value": "\"AllowedProfiles\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Models\/Other\/LankaSignClientData.swift",
       "kind": "StringLiteral",
-      "offset": 2363,
+      "offset": 655,
+      "length": 22,
+      "value": "\"DeviceSecurityConfig\""
+    },
+    {
+      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Models\/Other\/LankaSignClientData.swift",
+      "kind": "StringLiteral",
+      "offset": 2692,
       "length": 21,
       "value": "\"InvalidateBiometric\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Models\/Other\/LankaSignClientData.swift",
       "kind": "StringLiteral",
-      "offset": 2419,
+      "offset": 2748,
       "length": 20,
       "value": "\"AuthenticationType\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Models\/Other\/LankaSignClientData.swift",
       "kind": "StringLiteral",
-      "offset": 2473,
+      "offset": 2802,
       "length": 19,
       "value": "\"StrongBoxRequired\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Models\/Other\/LankaSignClientData.swift",
       "kind": "StringLiteral",
-      "offset": 2525,
+      "offset": 2854,
       "length": 18,
       "value": "\"UserAuthRequired\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Models\/Other\/LankaSignClientData.swift",
       "kind": "StringLiteral",
-      "offset": 2574,
+      "offset": 2903,
       "length": 16,
       "value": "\"HardwareBacked\""
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Models\/Other\/LankaSignClientData.swift",
       "kind": "StringLiteral",
-      "offset": 2622,
+      "offset": 2951,
       "length": 17,
       "value": "\"UserEnforcement\""
+    },
+    {
+      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Models\/Other\/LankaSignClientData.swift",
+      "kind": "StringLiteral",
+      "offset": 3312,
+      "length": 15,
+      "value": "\"SecurityLevel\""
+    },
+    {
+      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Models\/Other\/LankaSignClientData.swift",
+      "kind": "StringLiteral",
+      "offset": 3361,
+      "length": 19,
+      "value": "\"StrongBoxRequired\""
+    },
+    {
+      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Models\/Other\/LankaSignClientData.swift",
+      "kind": "StringLiteral",
+      "offset": 3413,
+      "length": 18,
+      "value": "\"UserAuthRequired\""
+    },
+    {
+      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Models\/Other\/LankaSignClientData.swift",
+      "kind": "StringLiteral",
+      "offset": 3467,
+      "length": 21,
+      "value": "\"InvalidateBiometric\""
+    },
+    {
+      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Models\/Other\/LankaSignClientData.swift",
+      "kind": "StringLiteral",
+      "offset": 3520,
+      "length": 17,
+      "value": "\"UserEnforcement\""
+    },
+    {
+      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Models\/Other\/LankaSignClientData.swift",
+      "kind": "StringLiteral",
+      "offset": 3572,
+      "length": 20,
+      "value": "\"AuthenticationType\""
+    },
+    {
+      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Models\/Other\/LankaSignClientData.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3671,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Models\/Other\/LankaSignClientData.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3700,
+      "length": 1,
+      "value": "1"
     },
     {
       "filePath": "\/Users\/kokila\/Documents\/Projects\/Github\/SigNEX\/SDK\/authnexlankasign-ios\/LankaSign\/Models\/Response\/InitResponse.swift",

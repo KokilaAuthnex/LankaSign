@@ -57,6 +57,7 @@ public enum AuthenticationInfo : Swift.Int, Swift.Codable {
 public enum AuthenticationType : Swift.Int, Swift.Codable {
   case StrongBiometric
   case DeviceCredencial
+  case Hybrid
   public init?(rawValue: Swift.Int)
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
@@ -180,12 +181,25 @@ public enum KeyAlgorithm {
 }
 public struct LankaSignClientData : Swift.Codable {
   public init(from decoder: any Swift.Decoder) throws
-  public init(packageName: Swift.String?, clientId: Swift.String?, serial: Swift.String?, applicationId: Swift.String?, allowedProfiles: [LankaSign.SecurityProfile]?)
+  public init(packageName: Swift.String?, clientId: Swift.String?, serial: Swift.String?, applicationId: Swift.String?, allowedProfiles: [LankaSign.SecurityProfile]?, deviceSecurityConfig: LankaSign.DeviceSecurityConfig?)
   public func encode(to encoder: any Swift.Encoder) throws
 }
 public struct SecurityProfile : Swift.Codable {
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
+}
+public struct DeviceSecurityConfig : Swift.Codable {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public enum SecurityLevel : Swift.Int, Swift.Codable {
+  case SoftwareBackend
+  case HardwareBackend
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
 }
 @_hasMissingDesignatedInitializers public class LankaSignResult<T> {
   public var state: Swift.Bool
@@ -214,3 +228,6 @@ extension LankaSign.RulesMode : Swift.Hashable {}
 extension LankaSign.RulesMode : Swift.RawRepresentable {}
 extension LankaSign.KeyAlgorithm.Signature : Swift.Equatable {}
 extension LankaSign.KeyAlgorithm.Signature : Swift.Hashable {}
+extension LankaSign.SecurityLevel : Swift.Equatable {}
+extension LankaSign.SecurityLevel : Swift.Hashable {}
+extension LankaSign.SecurityLevel : Swift.RawRepresentable {}
