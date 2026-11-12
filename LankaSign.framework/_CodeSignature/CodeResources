@@ -10,43 +10,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		HzqLWX7fo0L29n+UW58LwEBasSw=
-		</data>
-		<key>AuthenticatorScreen.storyboardc/AuthenticatorScreen.nib</key>
-		<data>
-		E1WRctGFZdG0KlWv+8HMg7dotYk=
-		</data>
-		<key>AuthenticatorScreen.storyboardc/Info.plist</key>
-		<data>
-		U7ry1nXM6Asyu7k3g3LX6bcIvfw=
-		</data>
-		<key>AuthenticatorScreen.storyboardc/Y6W-OH-hqX-view-5EZ-qb-Rvc.nib</key>
-		<data>
-		qPe05ohPLjCkJ4HRKWfhVF4T4DQ=
-		</data>
-		<key>BiometricView.storyboardc/02s-WF-Qcv-view-0rG-c7-02i.nib</key>
-		<data>
-		9SOhGJmRbORzXvPxefE6Br1Fb2Y=
-		</data>
-		<key>BiometricView.storyboardc/BiometricVC.nib</key>
-		<data>
-		jVW6xunyQlqHnKgF9CDPpbNXXTY=
-		</data>
-		<key>BiometricView.storyboardc/Info.plist</key>
-		<data>
-		xeuVrsPg4cVUWLA3Xp7gac2m3wU=
-		</data>
-		<key>ClearView.storyboardc/ClearVC.nib</key>
-		<data>
-		CE3U9hvfDsOQKpZTpdCsByunYyA=
-		</data>
-		<key>ClearView.storyboardc/Info.plist</key>
-		<data>
-		o+hK4e6vxjZnZ72i8JcHD3rHLkE=
-		</data>
-		<key>ClearView.storyboardc/Y6W-OH-hqX-view-5EZ-qb-Rvc.nib</key>
-		<data>
-		qLX/y/qEjr1JBzLk0vv4L/qLses=
+		f0BZlqAU89orrHEpoITEWTrn8mU=
 		</data>
 		<key>Headers/LankaSign-Swift.h</key>
 		<data>
@@ -76,25 +40,13 @@
 		<data>
 		zn9Omj99gx6sT7A7QKecoGAsZ18=
 		</data>
-		<key>MainView.storyboardc/Ai3-9S-mr4-view-FFG-ni-4sC.nib</key>
-		<data>
-		css5VrvbJypXk7wElG1gBz4LHrs=
-		</data>
-		<key>MainView.storyboardc/Info.plist</key>
-		<data>
-		/0v9Io8IxPBE3WivwfILeKjQge0=
-		</data>
-		<key>MainView.storyboardc/MainVC.nib</key>
-		<data>
-		z4D5/v0k7Zc0QHfK7mXHaSr5X64=
-		</data>
 		<key>Modules/LankaSign.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		B9WbHFGbn8oCoKr7Nkf2qdzgBjY=
+		hl8v0gFyQlUzr2E+2kwKq+oHzzI=
 		</data>
 		<key>Modules/LankaSign.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		NIb2VYe+tdFlND1ewgx7Jjx6sIY=
+		CZVi290NQaVcx0EMDpHGf9+0azI=
 		</data>
 		<key>Modules/LankaSign.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -102,11 +54,11 @@
 		</data>
 		<key>Modules/LankaSign.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		NIb2VYe+tdFlND1ewgx7Jjx6sIY=
+		CZVi290NQaVcx0EMDpHGf9+0azI=
 		</data>
 		<key>Modules/LankaSign.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		invAbYFI1iwmvxZ0yggtnvxyTYM=
+		mltTLvW0bNNst2l+dQ4oHArLN0s=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -116,25 +68,17 @@
 		<data>
 		Hx/w9bSMvxUIQ2Pa32guFYtd6Bk=
 		</data>
-		<key>api_lankasign_lankaclear_com_cert_out.der</key>
-		<data>
-		/CeIsNVMqzNbmq78Cm7c3Fjhksg=
-		</data>
-		<key>api_lankasigntest_lankaclear_com_cert_out.der</key>
-		<data>
-		HfqCffuMRRYJe/UvhI/oA0lcqVE=
-		</data>
-		<key>aunex_certificate_cert_out.der</key>
-		<data>
-		KW9PMtnMbZSTMV5dHrNchOd0EQQ=
-		</data>
 		<key>faceid.png</key>
 		<data>
 		iaM6gOUJcBytCECXUIkCOJJN6Lk=
 		</data>
-		<key>lankapay.der</key>
+		<key>lankapay_new.der</key>
 		<data>
-		FV79aBKFmHfhNAH4SHinh4dVZGM=
+		GMZkRUXd+28/YIw+XM62SeElUSQ=
+		</data>
+		<key>lankapay_old.cer</key>
+		<data>
+		k+TO7kFVOmUSl8g52eYrDzU2i/4=
 		</data>
 		<key>touchid.jpg</key>
 		<data>
@@ -154,70 +98,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			fPuVmFZoNUfxyjWnLBDN2z5O/7jFG5rt6Bq18tMXx1g=
-			</data>
-		</dict>
-		<key>AuthenticatorScreen.storyboardc/AuthenticatorScreen.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			/I+KuiPiuVAvFg3mCsAaeE251/lEJelmwocx2jyggXU=
-			</data>
-		</dict>
-		<key>AuthenticatorScreen.storyboardc/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			R4B8teEzlcRJjzRujCuw57NVketVfapQH27bshB6MBQ=
-			</data>
-		</dict>
-		<key>AuthenticatorScreen.storyboardc/Y6W-OH-hqX-view-5EZ-qb-Rvc.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			eY2xUL0E7RtfU3K2iDgDvZPqP4IO0GDiuyhJho31nbA=
-			</data>
-		</dict>
-		<key>BiometricView.storyboardc/02s-WF-Qcv-view-0rG-c7-02i.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			7XnfAbzRIwbibJq54JGpaHotcE/zJsKK4NMNo5RAXVw=
-			</data>
-		</dict>
-		<key>BiometricView.storyboardc/BiometricVC.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			o+wGg2A/RULvcKujZk8ve3SzYSKV2GamhhD/9GI1318=
-			</data>
-		</dict>
-		<key>BiometricView.storyboardc/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			+fMH105ShDMflk7eCY1YAFvRLHWivljica5O9hr2y0A=
-			</data>
-		</dict>
-		<key>ClearView.storyboardc/ClearVC.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Sy7ZJ6x/PWwkSd7wf1ykZcG7JEYOy0IY6iJ1CHsdMsA=
-			</data>
-		</dict>
-		<key>ClearView.storyboardc/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			yfZ2PQLdIdi/CnBP7BJ9Sm07XNtiI7+5jzfOLlmZU54=
-			</data>
-		</dict>
-		<key>ClearView.storyboardc/Y6W-OH-hqX-view-5EZ-qb-Rvc.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			nsijPZpBuwV9GStN+khX14XHNoEEGJ7BaWxSrrmrmVQ=
+			sLBlszb/6nwEu5OiwV2zmtoFAOgienEp8DkZz9Oq8GM=
 			</data>
 		</dict>
 		<key>Headers/LankaSign-Swift.h</key>
@@ -262,39 +143,18 @@
 			KRTjuLRhoUceegpiT1a1ysJvI0mGwdkqq6reY04CC4w=
 			</data>
 		</dict>
-		<key>MainView.storyboardc/Ai3-9S-mr4-view-FFG-ni-4sC.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			jgWy8tOJZHLka9DBsy9oOzRRk18+MTbwkoLjr58c0eo=
-			</data>
-		</dict>
-		<key>MainView.storyboardc/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			iOWKxeWUY7ENZMetnoBXKZ+5GJ/ftwXvtXf3AjZfd10=
-			</data>
-		</dict>
-		<key>MainView.storyboardc/MainVC.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			PyPAewethBN2aCyfbXdG3Ilt8TOJZzPiGc3uTpfzCeM=
-			</data>
-		</dict>
 		<key>Modules/LankaSign.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Alt/yDXLNjPLLuqQFQ783TnWc9LYBPO9XEtQ5kb7VlA=
+			VKpU7lk4SrgJjEWrW8AccJ2g3RqefVqh/1u2VvIIt/0=
 			</data>
 		</dict>
 		<key>Modules/LankaSign.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			UWHfe+uNsxxEGHVRmpAdmURoHN2cNgJC5vVgg9EUs38=
+			m6mHw+4OVVx7HR6b747Q6sXbdNhBwD6FAwyFjCQFvHI=
 			</data>
 		</dict>
 		<key>Modules/LankaSign.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -308,14 +168,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			UWHfe+uNsxxEGHVRmpAdmURoHN2cNgJC5vVgg9EUs38=
+			m6mHw+4OVVx7HR6b747Q6sXbdNhBwD6FAwyFjCQFvHI=
 			</data>
 		</dict>
 		<key>Modules/LankaSign.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			V0XE7cb11L9OCu6/+yCgbUTtFAdl7MPy6fP0pOzhkfw=
+			m5/ix8ixgsFzrh9IL8BH2qU/XVsKWUn+N2GTD8l9YSY=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -332,27 +192,6 @@
 			Qo4tH1z7rCMWj+E8wSva8CLfu3kkZK08se1V0SJuBH0=
 			</data>
 		</dict>
-		<key>api_lankasign_lankaclear_com_cert_out.der</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			xzNees6nMQJrWBLLUY1LBwLobQXMoMVIuoDoqRLDrBQ=
-			</data>
-		</dict>
-		<key>api_lankasigntest_lankaclear_com_cert_out.der</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			ZGXM2bxGGV5CXXphLmbRQnDuqkW/wSebCg0x5TjBBUg=
-			</data>
-		</dict>
-		<key>aunex_certificate_cert_out.der</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			WvxG7VCzanv1wdJh2CEZc6kCynpfyguGL7OVQd5kkT4=
-			</data>
-		</dict>
 		<key>faceid.png</key>
 		<dict>
 			<key>hash2</key>
@@ -360,11 +199,18 @@
 			PRBDGBk9czSAYSAkGPJun67G9YjnEFLMl4VomD2Vd7Q=
 			</data>
 		</dict>
-		<key>lankapay.der</key>
+		<key>lankapay_new.der</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			26T5kVn/AgDgjQXUmnkXdtVF6CurfPDb/Jo1KTeuPPQ=
+			ftijN2A+da4rPO4nV2jNALpOWiNgM1V6PIpewRqd7DI=
+			</data>
+		</dict>
+		<key>lankapay_old.cer</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			qNlbqenSNElKtrTSZ4U9X3/i5R7avsK9yYyH55+80sI=
 			</data>
 		</dict>
 		<key>touchid.jpg</key>
